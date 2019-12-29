@@ -18,7 +18,7 @@ namespace LocalTest.Controllers
         public HomeController(ILogger<HomeController> logger, IStringLocalizer<HomeController> localizer)
         {
             _logger = logger;
-            _localizer = localizer;
+            _localizer = localizer; 
             var test= _localizer["TestResources"].Value;
                 
         }
