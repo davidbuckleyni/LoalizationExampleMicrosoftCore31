@@ -52,20 +52,15 @@ namespace LocalTest
         {
             var supportedCultures = new[]
             {
-                new CultureInfo("en-US"),
-                new CultureInfo("en-AU"),
+                
                 new CultureInfo("en-GB"),
-                new CultureInfo("en"),
-                new CultureInfo("es-ES"),
-                new CultureInfo("es-MX"),
-                new CultureInfo("es"),
-                new CultureInfo("fr-FR"),
-                new CultureInfo("fr"),
+                new CultureInfo("en")
+               
             };
 
             app.UseRequestLocalization(new RequestLocalizationOptions
             {
-                DefaultRequestCulture = new RequestCulture("en-US"),
+                DefaultRequestCulture = new RequestCulture("en-GB"),
                 // Formatting numbers, dates, etc.
                 SupportedCultures = supportedCultures,
                 // UI strings that we have localized.
