@@ -49,6 +49,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Localization.AspNetCore.TagHelpers": {
+              "target": "Package",
+              "version": "[0.6.0, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -60,6 +64,10 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Localization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

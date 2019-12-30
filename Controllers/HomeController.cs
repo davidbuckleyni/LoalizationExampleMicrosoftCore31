@@ -20,7 +20,7 @@ namespace LocalTest.Controllers
             _logger = logger;
             _localizer = localizer; 
             var test= _localizer["TestResources"].Value;
-                
+            
         }
 
         public IActionResult Index()
